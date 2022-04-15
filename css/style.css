@@ -1,0 +1,85 @@
+/* ここから下に記載していく */
+.mainvisual{
+  text-align: center;
+  position: relative;
+}
+
+.mainvisual img{
+  width: 100%;
+}
+
+.mainvisual p{
+  position: absolute;
+  padding: 15px;
+  margin: 0px;
+  }
+.mainvisual .maintext{
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+}
+.mainvisual .subtext{
+  top:50%;
+  left:50%;
+  transform: translate(-50%,50%);
+  font-size: 25px;
+  color: white;
+  white-space: nowrap;
+}
+
+#header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+#header img{
+  margin-right: auto;
+}
+
+.menu-items{
+  right: 0%;
+  list-style: none;
+  display: inline-block;
+  margin: 50px 50px 50px 0px;
+  font-size: 21px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#about-image{
+  width: 100%;
+}
+
+#about-image li{
+  display: inline-block;
+}
